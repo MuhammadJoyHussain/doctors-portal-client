@@ -1,0 +1,10 @@
+@media(max-width: 500px){
+    .cal{
+        width: 250px;
+        height: 300px;
+    }
+    .dashboard{
+        margin-left: 50%;
+        width: 300px;
+    }
+}

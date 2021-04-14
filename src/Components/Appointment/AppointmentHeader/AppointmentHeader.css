@@ -1,0 +1,13 @@
+@media(max-width: 500px){
+    .calender{
+        margin-left: 20%;
+        margin-bottom: 40px;
+        height: 300px;
+        width: 300px;
+    }
+    .app-header{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 450px;
+    }
+}

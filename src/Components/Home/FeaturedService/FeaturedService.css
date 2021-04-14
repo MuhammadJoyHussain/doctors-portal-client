@@ -1,0 +1,11 @@
+@media(max-width: 500px){
+    .featured{
+        height: 350px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .container p{
+        font-size: 10px;
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import BookingCard from '../BookingCard/BookingCard';
+import './BookAppointment.css'
+
 const bookingData = [
     {
         id: 1,
@@ -43,7 +45,7 @@ const bookingData = [
 const BookAppointment = ({date}) => {
     return (
         <section>
-            <h2 className={"text-center text-brand mb-5"}>Available Appointment on{date.toDateString()}</h2>
+            <h2 className="text-center text-brand mb-5">Available Appointment on {date.toDateString()}</h2>
             <div className="row">
                 {
                     bookingData.map(booking => <BookingCard date={date} key={booking.id} booking={booking} />)

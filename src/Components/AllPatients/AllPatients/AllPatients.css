@@ -1,0 +1,6 @@
+@media(max-width: 500px){
+    .patients{
+        font-weight: 100;
+        width: 200px;
+    }
+}
